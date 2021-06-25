@@ -1,0 +1,6 @@
+.DS_Store
+fp-info-cache
+*.bak
+*.kicad_prl
+
+hdmi2c-backups/
