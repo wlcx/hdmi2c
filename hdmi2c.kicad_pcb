@@ -5,6 +5,12 @@
   )
 
   (paper "A5")
+  (title_block
+    (title "HDMI2C")
+    (rev "rev0")
+    (company "wlcx industries")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
