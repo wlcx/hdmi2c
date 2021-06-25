@@ -1,0 +1,21 @@
+name: Interactive BOMs
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout repo
+      - uses: wlcx/kicad-interactive-html-bom@main
+        name: Run kicad interactive HTML BOM
+      - uses: actions/upload-artifact@v2
+        name: Upload artifacts
+        with:
+          name: Interactive BOMs
+          path: gen/*.html
