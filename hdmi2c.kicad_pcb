@@ -6,7 +6,8 @@
 
   (paper "A5")
   (title_block
-    (title "HDMI2C")
+    (title "PRJ6 HDMI2C Monitor Controller")
+    (date "2021-06-25")
     (rev "rev0")
     (company "wlcx industries")
   )

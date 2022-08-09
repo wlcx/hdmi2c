@@ -6,8 +6,8 @@
 
   (title_block
     (title "PRJ6 HDMI2C Monitor Controller")
-    (date "2021-01-29")
-    (rev "1.0")
+    (date "2021-06-25")
+    (rev "rev0")
     (company "wlcx industries")
   )
 
